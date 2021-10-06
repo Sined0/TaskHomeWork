@@ -52,68 +52,10 @@ struct Folder: View {
                                     
                                 }
                             }
-////                                ScrollView{
-////
-////                                    LazyVStack{
-////                                        VStack(alignment: .leading){
-////
-////
-//
-////
-////
-////
-////
-////                                                Spacer(minLength: 0)
-////
-////                                                Divider()
-////
-////                                            }
-////
-////
-////
-////                                        }
-////                                        .frame(maxWidth: .infinity)
-////                                        .padding(.vertical, 5)
-////                                        .background(Color.black.opacity(0.30))
-////                                        .cornerRadius(10)
-////                                    }.padding(.horizontal, 15)
-////
-////                                }
-//                            }
                             
                         }
                         
                         Spacer(minLength: 0)
-//                        VStack{
-//                            HStack{
-//
-//                                Image(systemName: "folder.badge.plus")
-//                                    .resizable()
-//                                    .frame(width: 30, height: 25)
-//                                    .foregroundColor(.orange)
-//                                    .contextMenu{
-//                                        Button(action: {self.modelOne.selectIcloud()}, label: {
-//                                            Text(">iCloud")
-//                                        })
-//                                        Button(action: {self.modelOne.selectIphone()}, label: {
-//                                            Text(">iPhone")
-//                                        })
-//                                    }
-//
-//
-//
-//
-//                                Spacer(minLength: 0)
-//                                Image(systemName: "square.and.pencil")
-//                                    .resizable()
-//                                    .frame(width: 25, height: 25)
-//                                    .foregroundColor(.orange)
-//
-//                            }.padding(.horizontal, 20)
-//                        }
-//                        .padding(.horizontal,15)
-//                        .padding(.vertical, 10)
-                        
                         
                     }
                     
@@ -125,14 +67,6 @@ struct Folder: View {
                 }
                 
             }
-//            ZStack{
-//                if modelOne.isAlertShow == true {
-//                    AlertView(modelOne: modelOne)
-//
-//                }
-//            }
-            
-            
             
         }
         
